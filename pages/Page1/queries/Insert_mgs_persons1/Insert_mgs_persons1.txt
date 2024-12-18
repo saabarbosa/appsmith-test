@@ -1,0 +1,1 @@
+INSERT INTO mgs.persons ("first_name","last_name","email","phone") VALUES ('{{(Table1.newRow || {}).first_name}}','{{(Table1.newRow || {}).last_name}}','{{(Table1.newRow || {}).email}}','{{(Table1.newRow || {}).phone}}')

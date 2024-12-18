@@ -1,0 +1,1 @@
+SELECT COUNT(*) from mgs.persons where first_name ilike '%{{Table1.searchText}}%';
